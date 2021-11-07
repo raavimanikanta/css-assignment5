@@ -1,0 +1,181 @@
+.container{
+  
+    text-align: center;
+}
+body{
+    background-color: greenyellow;
+}
+.square{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    background-color: royalblue;
+   position: relative;
+   animation-name: example1;
+   animation-iteration-count: infinite;
+   animation-duration: 5s;
+   
+
+}
+@keyframes example1{
+    0%{
+        transform:skewX(-15deg);
+    }
+    25%{
+        transform:skewX(15deg);
+    }
+    50%{
+        transform:skewX(-15deg);
+    }
+   75%{
+        transform:skewX(15deg)
+    }
+    100%{
+        transform:skewX(-15deg);
+    }
+  
+
+
+}
+.cell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+
+width: 100px;
+height: 100px;
+margin: 30px;
+background-color:slategray;
+position: relative;
+animation-name: example2;
+animation-iteration-count: infinite;
+animation-duration: 5s;
+}
+@keyframes example2{
+    0%{
+        transform: skewY(15deg);
+    }
+    25%{
+        transform: skewY(-15deg);
+    }
+    50%{
+        transform: skewY(15deg);
+    }
+    75%{
+        transform: skewY(-15deg);
+    }
+    100%{
+        transform: skewY(15deg);
+    }
+}
+.cell2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color:rgb(37, 20, 197);
+position: relative;
+animation-name: example;
+animation-iteration-count: infinite;
+animation-duration: 5s;
+   }   
+   @keyframes example{
+       from {
+           
+           transform: rotate( -360deg);
+       }
+       to{
+           transform: rotate(360deg);
+       }
+   }
+   
+
+    .cell3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box2{
+        border: 1px solid black;
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+        background-color:slategray;
+    
+       }   
+    #box3{
+        background-color: skyblue;
+        position: relative;
+        animation-name: example3;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+    }
+       @keyframes example3{
+           0%{
+             
+               height: 100px;
+           }
+           100%{
+             
+               height: 120px;
+           }
+       }
+       #box4{
+           background-color: maroon;
+           position: relative;
+           animation-name: example4;
+           animation-iteration-count: infinite;
+           animation-duration: 5s;
+       }
+       @keyframes example4{
+           0%{
+               width: 50px;
+         
+           }
+           100%{
+               width: 100px;
+         
+           }
+       }
+       #box5{
+           background-color:green;
+        position: relative;
+        animation-name: example5;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+       }
+       @keyframes example5{
+           0%{
+               transform: rotate(-20deg);
+           }
+           /* 25%{
+               transform: rotate(90deg);
+           } */
+            50%{
+            transform: rotate(90deg);
+        }
+    
+        /* 100%{
+            transform:rotate(-45deg)
+            } */
+        
+       }
+    
+        .cell4{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        a{
+            margin-bottom: 150px;
+            font-size: larger;
+        }
+       
